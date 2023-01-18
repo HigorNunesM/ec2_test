@@ -8,5 +8,5 @@ df = pd.DataFrame({"A": [random.randint(0,100) for i in range(10)],
                   "C": [random.randint(0,100) for i in range(10)]})
 
 # Save the dataframe as a csv file
-df.to_csv('output.csv', index=False)
+df.to_csv('/home/ec2-user/project/output.csv', index=False)
 print("File saved successfully")
