@@ -2,7 +2,7 @@
 import pandas as pd
 import random
 
-print("Starting...")
+print(Starting...")
 # Create a random pandas dataframe
 df = pd.DataFrame({"A": [random.randint(0,100) for i in range(10)],
                   "B": [random.randint(0,100) for i in range(10)],
