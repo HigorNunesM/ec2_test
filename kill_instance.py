@@ -1,4 +1,6 @@
 import subprocess
+import sys
 
-subprocess.call(["sudo", "shutdown"])
-subprocess.call(["shutdown"])
+instance_id = sys.argv[1]
+
+subprocess.run(["aws", "ec2", "terminate-instances", "--instance-ids", instance_id])
