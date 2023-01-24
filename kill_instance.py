@@ -1,6 +1,6 @@
 import subprocess
 
- try:
-  subprocess.call(["shutdown"])
+try:
+ subprocess.call(["shutdown"])
 except:
-  subprocess.call(["sudo", "shutdown"])
+ subprocess.call(["sudo", "shutdown"])
